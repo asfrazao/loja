@@ -1,0 +1,114 @@
+plugins {
+    id 'java'
+}
+
+group 'org.example'
+version '2.6-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+/*dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
+}*/
+
+/*dependencies {
+    // https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api
+    implementation group: 'javax.xml.bind', name: 'jaxb-api', version: '2.4.0-b180830.0359'
+
+}*/
+dependencies {
+    // https://mvnrepository.com/artifact/jakarta.xml.bind/jakarta.xml.bind-api
+    implementation group: 'jakarta.xml.bind', name: 'jakarta.xml.bind-api', version: '4.0.0-RC2'
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.glassfish.jaxb/jaxb-runtime
+    implementation group: 'org.glassfish.jaxb', name: 'jaxb-runtime', version: '3.0.2'
+
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/org.glassfish.jersey.containers/jersey-container-grizzly2-http
+    implementation group: 'org.glassfish.jersey.containers', name: 'jersey-container-grizzly2-http', version: '3.0.3'
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.google.code.gson/gson
+    implementation group: 'com.google.code.gson', name: 'gson', version: '2.8.9'
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/com.thoughtworks.xstream/xstream
+    implementation group: 'com.thoughtworks.xstream', name: 'xstream', version: '1.4.18'
+
+}
+
+
+dependencies {
+    // https://mvnrepository.com/artifact/javax.ws.rs/jsr311-api
+    implementation group: 'javax.ws.rs', name: 'jsr311-api', version: '1.1.1'
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/javax/javaee-api
+    compileOnly group: 'javax', name: 'javaee-api', version: '8.0.1'
+
+}
+
+/*dependencies {
+// https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-server
+    implementation group: 'org.glassfish.jersey.core', name: 'jersey-server', version: '3.0.3'
+}*/
+
+/*dependencies {
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-common
+    implementation group: 'org.glassfish.jersey.core', name: 'jersey-common', version: '3.0.3'
+
+}*/
+dependencies {
+    // https://mvnrepository.com/artifact/org.glassfish.jersey.inject/jersey-hk2
+    implementation group: 'org.glassfish.jersey.inject', name: 'jersey-hk2', version: '3.0.3'
+
+}
+
+dependencies {
+// https://mvnrepository.com/artifact/org.glassfish.jersey.core/jersey-client
+    implementation group: 'org.glassfish.jersey.core', name: 'jersey-client', version: '3.0.3'
+}
+
+
+
+dependencies {
+    // https://mvnrepository.com/artifact/jakarta.ws.rs/jakarta.ws.rs-api
+    implementation group: 'jakarta.ws.rs', name: 'jakarta.ws.rs-api', version: '3.0.0'
+
+}
+
+dependencies {
+    // https://mvnrepository.com/artifact/junit/junit
+    testImplementation group: 'junit', name: 'junit', version: '4.13.2'
+
+}
+
+/*dependencies {
+    // https://mvnrepository.com/artifact/javax.ws.rs/jsr311-api
+    implementation group: 'javax.ws.rs', name: 'jsr311-api', version: '1.1.1'
+
+}*/
+
+dependencies {
+    // https://mvnrepository.com/artifact/org.apache.axis2/axis2-jaxws
+    implementation group: 'org.apache.axis2', name: 'axis2-jaxws', version: '1.8.0'
+
+}
+
+test {
+    useJUnitPlatform()
+}
